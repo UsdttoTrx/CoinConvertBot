@@ -4,19 +4,14 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPLV3-blue" alt="license GPLV3"></a>
 <a href="https://www.php.net/releases/7_4_0.php"><img src="https://img.shields.io/badge/.NET-6-orange" alt=".net6"></a>
 <a href="https://github.com/assimon/dujiaoka/releases/tag/1.0.0"><img src="https://img.shields.io/badge/version-1.0.0-red" alt="version 1.0.0"></a>
-<a href="https://t.me/CoinConvertChannel"><img src="https://img.shields.io/badge/官方频道-@CoinConvertChannel-blue" alt="官方频道：@CoinConvertChannel"></a>
-<a href="https://t.me/CoinConvertBot"><img src="https://img.shields.io/badge/官方Bot-@CoinConvertBot-blue" alt="官方机器人：@CoinConvertBot"></a>
-</p>
+
+
 
 ## 兑币机 - Telegram Bot
 
 >一款开源自动化USDT兑换TRX的Telegram机器人！
 
-## AD -- 免费领取国际信用卡
->免费领取VISA卡，万事达卡，充值USDT即可随便刷  
-可绑微信、支付宝、美区AppStore消费  
-快来领取你的可刷USDT的国际银行卡吧   
-➡️➡️➡️ [点击领取你的国际信用卡](https://depay.depay.one/web-app/register-h5?invitCode=949656&lang=zh-cn)
+
 
 ## 项目简介
 - `CoinConvertBot`是一个由`C#语言`编写的私有化部署`USDT-TRC20`全自动兑换`TRX`的机器人。     
@@ -39,34 +34,10 @@ CoinConvertBot
     └── wiki ---> (知识库)
 ```
 
-## 教程（待完善）：
-- 宝塔运行`CoinConvertBot`教程👉🏻[宝塔运行CoinConvertBot](wiki/BT_RUN.md)
-- 手动运行`CoinConvertBot`教程👉🏻[手动运行CoinConvertBot](wiki/manual_RUN.md)
 
 
-## 加入交流/意见反馈
-- `CoinConvertBot`频道[https://t.me/CoinConvertChannel](https://t.me/CoinConvertChannel)
-- `CoinConvertBot`交流群组[https://t.me/CoinConvertChat](https://t.me/CoinConvertChat)
 
-## 设计实现
-`CoinConvertBot`的实现方式与其他项目原理类似，都是通过监听`TRC20`网络的api或节点，      
-监听钱包地址`USDT`代币入账事件，将入账金额，根据汇率，扣除手续费后，转换为`TRX`
-```
-简单的原理：
-0.服务器定时同步交易所最新汇率
-1.客户支付20.05 USDT，交易上链
-2.服务器定时通过API轮询，获取监听地址下的最新USDT入账交易，并记录到数据库，标记为待处理
-3.定时任务读取数据库待处理的入账记录，读取数据库最新汇率，将USDT金额按照汇率转换为TRX金额
-4.使用配置的钱包转此金额的TRX到转出USDT的地址
-5.交易成功后通知客户(需要客户已经在机器人处绑定钱包地址)和管理员
-```
 
-## 打赏
-如果该项目对您有所帮助，希望可以请我喝一杯咖啡☕️
-```
-USDT-TRC20打赏地址: TQWM6cuy6YesssqqzSucoUkS1A11kAAAAA
-```
-<img src="wiki/imgs/usdt_thanks.jpg" width = "400" alt="usdt扫码打赏"/>
 
 ## 致谢
 感谢以下开源项目：
@@ -80,6 +51,7 @@ USDT-TRC20打赏地址: TQWM6cuy6YesssqqzSucoUkS1A11kAAAAA
 [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot) ![Github stars](https://img.shields.io/github/stars/TelegramBots/Telegram.Bot?style=social)
 
 [TronNet](https://github.com/stoway/TronNet) ![Github stars](https://img.shields.io/github/stars/stoway/TronNet?style=social)
+[TronNet](https://github.com/LightCountry/CoinConvertBot) ![Github stars](https://img.shields.io/github/stars/stoway/CoinConvertBot?style=social)
 
 ## 声明
 `CoinConvertBot`为开源的产品，仅用于学习交流使用！       
@@ -92,4 +64,4 @@ USDT-TRC20打赏地址: TQWM6cuy6YesssqqzSucoUkS1A11kAAAAA
 亦不鼓励和支持任何"挖矿"，"炒币"，"虚拟币ICO"等非法行为
 虚拟币市场行为不受监管要求和控制，投资交易需谨慎，仅供学习区块链知识
 ```
-[![Stargazers over time](https://starchart.cc/LightCountry/CoinConvertBot.svg)](https://starchart.cc/LightCountry/CoinConvertBot)
+
