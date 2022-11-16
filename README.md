@@ -51,7 +51,8 @@ CoinConvertBot
 [Telegram.Bot](https://github.com/TelegramBots/Telegram.Bot) ![Github stars](https://img.shields.io/github/stars/TelegramBots/Telegram.Bot?style=social)
 
 [TronNet](https://github.com/stoway/TronNet) ![Github stars](https://img.shields.io/github/stars/stoway/TronNet?style=social)
-[TronNet](https://github.com/LightCountry/CoinConvertBot) ![Github stars](https://img.shields.io/github/stars/stoway/CoinConvertBot?style=social)
+    
+[CoinConvertBot](https://github.com/LightCountry/CoinConvertBot) ![Github stars](https://img.shields.io/github/stars/stoway/CoinConvertBot?style=social)
 
 ## 声明
 `CoinConvertBot`为开源的产品，仅用于学习交流使用！       
